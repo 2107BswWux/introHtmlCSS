@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    /* background:blue; */
+    color:white;
+}
+
+h1{
+    color: tomato;
+}
+h1:hover{
+    cursor: pointer;
+}
+
+.newHeading{
+    color: red;
+}
+
+#heading{
+    color: violet;
+}
+
+p{
+    color: #92E34F;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+img{
+    width: 33%;
+    height: 200px;
+    transition: 1s all ease;
+}
+img:hover{
+    border-radius: 80px;
+    filter: opacity(50%);
+}
+
+div{
+    height: 400px;
+    width: 40%;
+    /* background: #333; */
+    padding: 20px;
+    margin-right: 20px;
+    float: left;
+    border: 2px solid green;
+    border-radius: 30px;
+}
